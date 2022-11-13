@@ -1,0 +1,64 @@
+html {
+    width: 100%;
+}
+
+body {
+    background-image: url(./p0307_l.png);
+    background-size: 100%;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1,h2 {
+    font-family: 'Sedgwick Ave', cursive;
+
+}
+
+h2 {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+}
+footer img{
+    width: 100px;
+}
+/* ---------------------------------------------------------------------------------- */
+#search {
+    background: rgba(190, 190, 190, 0.5);
+    border: solid 2px black;
+    padding: 30px;
+    width: 600px;
+}
+#search button{
+    cursor: pointer;
+}
+
+#record {
+    background: rgba(100, 100, 100, 0.5);
+    border: solid 2px black;
+    padding: 30px;
+    width: 600px;
+}
+ul{
+    cursor: pointer;
+}
+.wrapper{
+    background-color: rgb(190, 190, 190);
+    border: solid 1.5px;
+}
+.wrapper p{
+    background-color: #fff;
+}
